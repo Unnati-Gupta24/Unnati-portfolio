@@ -74,17 +74,51 @@ const configs = {
       rotation: [Math.PI / 2, 0, 0],
       position: [0, -PAGE_DEPH_MARGIN, 0],
       title: 'My Skillset',
-      footer: 'Check out some of my skills',
+      footer: 'Check out some of my skills and many more in resume :)',
       imageList: {
-        rows: 2,
+        rows: 3,
         separation: 2.5,
         leftPadding: -0.4,
         topPadding: 0.2,
-        scale: 0.3,
+        scale: 0.2,
+        bottomPadding: 0.2,
+        bottomMargin: 0.2,
         items: [
           {
-            url: 'websites-preview/nft-place-logo.png',
-            websiteURL: 'https://docs.google.com',
+            url: 'skills/mern.PNG',
+            websiteURL: null,
+          },
+          {
+            url: 'skills/java.PNG',
+            websiteURL: null,
+          },
+          {
+            url: 'skills/py.PNG',
+            websiteURL: null,
+          },
+          {
+            url: 'skills/sol.PNG',
+            websiteURL: null,
+          },
+          {
+            url: 'skills/ts.PNG',
+            websiteURL: null,
+          },
+          {
+            url: 'skills/hd.PNG',
+            websiteURL: null,
+          },
+          {
+            url: 'skills/ipfs.PNG',
+            websiteURL: null,
+          },
+          {
+            url: 'skills/eth.PNG',
+            websiteURL: null,
+          },
+          {
+            url: 'skills/btc.PNG',
+            websiteURL: null,
           },
         ],
       },
@@ -94,7 +128,7 @@ const configs = {
       displayAt: displayAt('Get In Touch'),
       rotation: [0, Math.PI / 2, 0],
       position: [PAGE_DEPH_MARGIN, 0, 0],
-      title: 'You can contact me:',
+      title: 'Get in touch with me:',
       footer: 'Almost done but keep scrolling :)',
       imageList: {
         rows: 2,
@@ -104,8 +138,20 @@ const configs = {
         scale: 0.3,
         items: [
           {
-            url: 'websites-preview/nft-place-logo.png',
-            websiteURL: 'https://docs.google.com',
+            url: 'contact/x.PNG',
+            websiteURL: null,
+          },
+          {
+            url: 'contact/lk.PNG',
+            websiteURL: null,
+          },
+          {
+            url: 'contact/gt.PNG',
+            websiteURL: null,
+          },
+          {
+            url: 'contact/medium.PNG',
+            websiteURL: null,
           },
         ],
       },
