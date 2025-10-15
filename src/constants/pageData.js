@@ -9,13 +9,13 @@
 
 export const PAGE_DEPH_MARGIN = 15;
 
-export const Glimpses = {
+export const Experience = {
   rows: 2,
   separation: 3,
   leftPadding: -0.32,
   topPadding: 0.22,
   scale: 0.2,
-  //optionally show the websiteURL inside of the cube in an Iframe
+
   webViewer: {
     position: [0, 0, -15],
     rotation: [Math.PI, Math.PI, Math.PI],
@@ -24,20 +24,43 @@ export const Glimpses = {
   },
   items: [
     {
-      url: 'websites-preview/nft-place-logo.png',
-      websiteURL: 'https://google.com/',
+      url: 'Experience/iitbhu.PNG',
+      websiteURL: null,
+    },
+    {
+      url: 'Experience/gssoc.PNG',
+      websiteURL: null,
+    },
+    {
+      url: 'Experience/avaxteam1.PNG',
+      websiteURL: null,
+    },
+    {
+      url: 'Experience/bt.PNG',
+      websiteURL: null,
+    },
+    {
+      url: 'Experience/le.PNG',
+      websiteURL: null,
+    },
+    {
+      url: 'Experience/df.PNG',
+      websiteURL: null,
     },
   ],
 };
 
 export const Achievements = {
-  rows: 4,
-  separation: 2.4,
-  leftPadding: -0.4,
-  topPadding: 0.33,
-  scale: 0.15,
+  rows: 2,
+  separation: 2,
+  leftPadding: -0.25,
+  topPadding: 0.2,
+  scale: 0.4,
   items: [
-    { url: 'websites-preview/nft-place-logo.png', websiteURL: null },
+    { url: 'Achievements/ntse.jpg', websiteURL: null },
+    { url: 'Achievements/devrel espresso.jpg', websiteURL: "https://blog.esprezzo.io/how-to-succeed-in-web3-devrel-in-2025-tips-from-pros" },
+    { url: 'Achievements/judge.jpg', websiteURL: "https://www.hackquest.io/hackathons/HackX-Buildathon" },
+    { url: 'Achievements/buildspace.jpg', websiteURL: null },
   ],
 };
 
@@ -55,7 +78,7 @@ export const STOPS = [
     displayPosition: 0.2007,
     displayPositionOffset: -0.03,
     displayPositionOffsetEnd: -0.07,
-    name: 'Glimpses',
+    name: 'Experience',
   },
   {
     position: 0.2982,
@@ -69,14 +92,14 @@ export const STOPS = [
     displayPosition: 0.3009,
     displayPositionOffset: 0.08,
     displayPositionOffsetEnd: -0.17,
-    name: 'Register now',
+    name: 'Checkout resume',
   },
   {
     position: 0.48,
     displayPosition: 0.29,
     displayPositionOffset: 0.18,
     displayPositionOffsetEnd: -0.15,
-    name: 'Previous winners',
+    name: 'Skills',
   },
   {
     position: 0.592,

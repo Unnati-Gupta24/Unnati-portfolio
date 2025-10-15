@@ -3,18 +3,18 @@ import {
   STOPS,
   PAGE_DEPH_MARGIN,
   Achievements,
-  Glimpses,
-} from './constants/pageData';
+  Experience,
+} from './constants/pageData'
 
 const configs = {
-  title: 'INNOTECH 2025',
-  subTitle: 'Coming soon',
+  title: '  UNNATI GUPTA',
+  subTitle: 'Blockchain & FullStack Developer',
   stars: {
     maxSize: 20,
     emissionIntencity: 40,
     dencity: 900,
   },
-  navTitle: 'Innotech 2025',
+  navTitle: 'Unnati Gupta',
   relevantStops: STOPS,
   pages: [
     {
@@ -22,18 +22,20 @@ const configs = {
       rotation: [Math.PI, 0, Math.PI],
       position: [0, 0, -PAGE_DEPH_MARGIN],
       displayAt: displayAt('About'),
-      title: 'What is Innotech?',
-      infos: [
-        "World class hackathon ...........................",
+      title: 'Who am I?',
+      infos: [  
+        "I am proficient in the MERN stack, experienced in web3, and skilled in marketing research, combining technical expertise with strategic insight.",
+        'I have worked as a Research Intern at IIT (BHU), a DevRel at LayerEdge, and a Developer at BefikraTech.',
+        'Feel free to reach out if you have any opportunities or just want to say hi!',
       ],
     },
     {
       scale: 15,
-      displayAt: displayAt('Glimpses'),
+      displayAt: displayAt('Experience'),
       rotation: [0, -Math.PI / 2, 0],
       position: [-PAGE_DEPH_MARGIN, 0, 0],
-      title: 'Glimpses of innotech',
-      imageList: Glimpses,
+      title: 'Experience',
+      imageList: Experience,
       footer: 'You can click the icons to find out more.',
     },
     {
@@ -47,11 +49,11 @@ const configs = {
     },
     {
       scale: 15,
-      displayAt: displayAt('Register now'),
+      displayAt: displayAt('Checkout resume'),
       rotation: [0, 0, 0],
       position: [0, 0, PAGE_DEPH_MARGIN],
-      title: 'Be quick Register now!!!',
-      footer: 'Click the icon above to register',
+      title: 'Checkout resume',
+      footer: 'Click the icon above to check',
       imageList: {
         rows: 1,
         separation: 3,
@@ -60,20 +62,19 @@ const configs = {
         scale: 0.8,
         items: [
           {
-            url: 'websites-preview/nft-place-logo.png',
-            websiteURL:
-              'https://docs.google.com',
+            url: 'websites-preview/cv.png',
+            websiteURL: 'https://drive.google.com/file/d/1VTsgkNawomllLa2pvKeLjUKNp5BtFoIk/view?usp=drivesdk',
           },
         ],
       },
     },
     {
       scale: 15,
-      displayAt: displayAt('Previous winners'),
+      displayAt: displayAt('Skills'),
       rotation: [Math.PI / 2, 0, 0],
       position: [0, -PAGE_DEPH_MARGIN, 0],
-      title: 'Previous winners',
-      footer: '(One of the best)',
+      title: 'My Skillset',
+      footer: 'Check out some of my skills',
       imageList: {
         rows: 2,
         separation: 2.5,
@@ -83,7 +84,7 @@ const configs = {
         items: [
           {
             url: 'websites-preview/nft-place-logo.png',
-            websiteURL:  'https://docs.google.com',
+            websiteURL: 'https://docs.google.com',
           },
         ],
       },
@@ -93,7 +94,7 @@ const configs = {
       displayAt: displayAt('Get In Touch'),
       rotation: [0, Math.PI / 2, 0],
       position: [PAGE_DEPH_MARGIN, 0, 0],
-      title: 'You can contact us:',
+      title: 'You can contact me:',
       footer: 'Almost done but keep scrolling :)',
       imageList: {
         rows: 2,
@@ -105,11 +106,11 @@ const configs = {
           {
             url: 'websites-preview/nft-place-logo.png',
             websiteURL: 'https://docs.google.com',
-          }
+          },
         ],
       },
     },
   ],
-};
+}
 
-export default configs;
+export default configs
