@@ -64,7 +64,7 @@ const configs = {
           {
             url: 'websites-preview/cv.png',
             websiteURL:
-              'https://drive.google.com/file/d/1k_VPEyibKitWYJ8GrIhcMMMPM0E4gBXq/view?usp=drivesdk',
+              'https://drive.google.com/file/d/1d6xZrJVcn_pD-Rw4UayJ0LxJKARwxFbr/view?usp=drivesdk',
           },
         ],
       },
