@@ -64,7 +64,7 @@ const configs = {
           {
             url: 'websites-preview/cv.png',
             websiteURL:
-              'https://drive.google.com/file/d/1uGpV9RUoI5fMyZI8nRI8idFFI9WsfsIs/view?usp=drivesdk',
+              'https://drive.google.com/file/d/1k_VPEyibKitWYJ8GrIhcMMMPM0E4gBXq/view?usp=drivesdk',
           },
         ],
       },
@@ -75,12 +75,12 @@ const configs = {
       rotation: [Math.PI / 2, 0, 0],
       position: [0, -PAGE_DEPH_MARGIN, 0],
       title: 'My Skillset',
-      footer: 'Check out some of my skills and many more detailed in resume :)',
+      footer: 'Check out some of my skills and many more in resume :)',
       imageList: {
         rows: 3,
         separation: 2.5,
         leftPadding: -0.4,
-        topPadding: 0.2,
+        topPadding: 0.3,
         scale: 0.2,
         bottomPadding: 0.2,
         bottomMargin: 0.2,
