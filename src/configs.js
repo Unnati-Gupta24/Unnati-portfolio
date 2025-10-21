@@ -23,10 +23,10 @@ const configs = {
       position: [0, 0, -PAGE_DEPH_MARGIN],
       displayAt: displayAt('About'),
       title: 'Who am I?',
-      infos: [  
-        "I am proficient in the MERN stack, experienced in web3, and skilled in marketing research, combining technical expertise with strategic insight.",
-        'I have worked as a Research Intern at IIT (BHU), a DevRel at LayerEdge, and a Developer at BefikraTech.',
-        'Feel free to reach out if you have any opportunities or just want to say hi!',
+      infos: [
+        'Fast-learning and detail-oriented DevRel with hands-on experience in DApp development, smart contracts, and developer advocacy.',
+        'Proven record as a Research Intern at IIT-BHU and DevRel at LayerEdge, driving developer adoption and building scalable decentralized applications.',
+        'Skilled in JavaScript, React.js, Node.js, Solidity, Web3, and community engagement.',
       ],
     },
     {
@@ -36,7 +36,7 @@ const configs = {
       position: [-PAGE_DEPH_MARGIN, 0, 0],
       title: 'Experience',
       imageList: Experience,
-      footer: 'You can click the icons to find out more.',
+      footer: 'You can check them in detail in my resume',
     },
     {
       scale: 15,
@@ -63,7 +63,8 @@ const configs = {
         items: [
           {
             url: 'websites-preview/cv.png',
-            websiteURL: 'https://drive.google.com/file/d/1VTsgkNawomllLa2pvKeLjUKNp5BtFoIk/view?usp=drivesdk',
+            websiteURL:
+              'https://drive.google.com/file/d/1uGpV9RUoI5fMyZI8nRI8idFFI9WsfsIs/view?usp=drivesdk',
           },
         ],
       },
@@ -74,7 +75,7 @@ const configs = {
       rotation: [Math.PI / 2, 0, 0],
       position: [0, -PAGE_DEPH_MARGIN, 0],
       title: 'My Skillset',
-      footer: 'Check out some of my skills and many more in resume :)',
+      footer: 'Check out some of my skills and many more detailed in resume :)',
       imageList: {
         rows: 3,
         separation: 2.5,
@@ -129,29 +130,29 @@ const configs = {
       rotation: [0, Math.PI / 2, 0],
       position: [PAGE_DEPH_MARGIN, 0, 0],
       title: 'Get in touch with me:',
-      footer: 'Almost done but keep scrolling :)',
+      footer: 'Click the above icon. Almost done but keep scrolling :)',
       imageList: {
         rows: 2,
         separation: 1.8,
-        leftPadding: -0.25,
+        leftPadding: -0.3,
         topPadding: 0.2,
         scale: 0.3,
         items: [
           {
             url: 'contact/x.PNG',
-            websiteURL: null,
+            websiteURL: 'https://x.com/Unnati_builds24',
           },
           {
             url: 'contact/lk.PNG',
-            websiteURL: null,
+            websiteURL: 'https://www.linkedin.com/in/unnati-gupta-b73a8a27b',
           },
           {
             url: 'contact/gt.PNG',
-            websiteURL: null,
+            websiteURL: 'https://github.com/Unnati-Gupta24',
           },
           {
             url: 'contact/medium.PNG',
-            websiteURL: null,
+            websiteURL: 'https://medium.com/@guptaunnati031',
           },
         ],
       },

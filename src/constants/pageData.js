@@ -113,7 +113,7 @@ export const STOPS = [
     displayPosition: 1,
     displayPositionOffset: 0.03,
     displayPositionOffsetEnd: 0,
-    name: 'Innotech',
+    name: 'Unnati gupta',
   },
 ];
 

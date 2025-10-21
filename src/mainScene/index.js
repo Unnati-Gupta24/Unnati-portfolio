@@ -51,7 +51,7 @@ function MainScene() {
                 fontSize={24}
                 rotation={[Math.PI / 0.8, Math.PI / 0.57, Math.PI / 0.845]}
               >
-                Be steady you are about to witness greatness...
+                Your journey through Progress begins..
               </Text>
             }
           >
